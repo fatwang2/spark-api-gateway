@@ -44,6 +44,18 @@ curl --location 'http://localhost:8000/v1/models'
             "owned_by": null
         },
         {
+            "id": "spark-chat-v3.5",
+            "object": "model",
+            "created": null,
+            "owned_by": null
+        },
+                {
+            "id": "spark-chat-v4",
+            "object": "model",
+            "created": null,
+            "owned_by": null
+        },
+        {
             "id": "spark-chat-vision",
             "object": "model",
             "created": null,
@@ -62,6 +74,8 @@ Spark API Gateway通过如下模型分别提供认知大模型V1.5，V2，V3的�
 - spark-chat-v1.5
 - spark-chat-v2
 - spark-chat-v3
+- spark-chat-v3.5
+- spark-chat-v4
 
 以下模型提供认知大模型的图片理解：
 

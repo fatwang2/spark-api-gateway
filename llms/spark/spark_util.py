@@ -12,7 +12,6 @@ class SparkModels(Enum):
     SPARK_COMPLETION_V15 = "spark-chat-v1.5"
     SPARK_COMPLETION_V2 = "spark-chat-v2"
     SPARK_COMPLETION_V3 = "spark-chat-v3"
-    SPARK_COMPLETION_V3 = "spark-chat-v3"
     SPARK_COMPLETION_V35 = "spark-chat-v3.5"
     SPARK_COMPLETION_V4 = "spark-chat-v4"
     SPARK_COMPLETION_VISON = "spark-chat-vision"
