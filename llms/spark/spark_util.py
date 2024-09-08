@@ -12,6 +12,9 @@ class SparkModels(Enum):
     SPARK_COMPLETION_V15 = "spark-chat-v1.5"
     SPARK_COMPLETION_V2 = "spark-chat-v2"
     SPARK_COMPLETION_V3 = "spark-chat-v3"
+    SPARK_COMPLETION_V3 = "spark-chat-v3"
+    SPARK_COMPLETION_V35 = "spark-chat-v3.5"
+    SPARK_COMPLETION_V4 = "spark-chat-v4"
     SPARK_COMPLETION_VISON = "spark-chat-vision"
 
     @classmethod
@@ -27,6 +30,9 @@ SPARK_MODELS_MAP = {
     SparkModels.SPARK_COMPLETION_V15: SparkApiSpec(domain="general", api_version="v1.1", model=SparkModels.SPARK_COMPLETION_V15.value),
     SparkModels.SPARK_COMPLETION_V2: SparkApiSpec(domain="generalv2", api_version="v2.1", model=SparkModels.SPARK_COMPLETION_V2.value),
     SparkModels.SPARK_COMPLETION_V3: SparkApiSpec(domain="generalv3", api_version="v3.1", model=SparkModels.SPARK_COMPLETION_V3.value),
+    SparkModels.SPARK_COMPLETION_V35: SparkApiSpec(domain="generalv3.5", api_version="v3.5", model=SparkModels.SPARK_COMPLETION_V35.value),
+    SparkModels.SPARK_COMPLETION_V4: SparkApiSpec(domain="4.0Ultra", api_version="v4.0", model=SparkModels.SPARK_COMPLETION_V4.value),
+
     SparkModels.SPARK_COMPLETION_VISON: SparkApiSpec(
         domain="general", api_version="v2.1", model=SparkModels.SPARK_COMPLETION_VISON.value)
 }
